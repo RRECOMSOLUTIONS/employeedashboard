@@ -5,7 +5,8 @@ export const backendUrl = __BACKEND_URL__ ?? "/"
 export const sdk = new Medusa({
   baseUrl: backendUrl,
   auth: {
-    type: "session",
+    type: "jwt",
+    fetchCredentials:"include"
   },
 })
 
