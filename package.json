@@ -4,7 +4,7 @@
   "scripts": {
     "generate:static": "node ./scripts/generate-currencies.js && prettier --write ./src/lib/currencies.ts",
     "dev": "vite",
-    "build": "tsup && node ./scripts/generate-types.js",
+    "build": "vite build",
     "build:preview": "vite build",
     "preview": "vite preview",
     "test": "vitest --run",
@@ -82,7 +82,7 @@
     "@types/node": "^20.11.15",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
-    "@vitejs/plugin-react": "4.2.1",
+    "@vitejs/plugin-react": "^4.4.1",
     "ajv": "^8.17.1",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.33",
