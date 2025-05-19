@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react"
 import { defineConfig, loadEnv } from "vite"
 import inspect from "vite-plugin-inspect"
 
+// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd())
 
@@ -10,6 +11,10 @@ export default defineConfig(({ mode }) => {
   const BACKEND_URL = env.VITE_MEDUSA_BACKEND_URL || "http://localhost:9000"
   const STOREFRONT_URL =
     env.VITE_MEDUSA_STOREFRONT_URL || "http://localhost:8000"
+
+  /**
+   * Add this to your .env file to specify the project to load admin extensions from.
+   */
   const MEDUSA_PROJECT = env.VITE_MEDUSA_PROJECT || null
   const sources = MEDUSA_PROJECT ? [MEDUSA_PROJECT] : []
 
@@ -30,14 +35,8 @@ export default defineConfig(({ mode }) => {
       open: true,
     },
     build: {
-      outDir: "dist",
-      rollupOptions: {
-        output: {
-          entryFileNames: "assets/[name]-[hash].js",
-          chunkFileNames: "assets/[name]-[hash].js",
-          assetFileNames: "assets/[name]-[hash][extname]"
-        }
-      }
-    }
+      outDir: 'dist',
+      emptyOutDir: true,
+    }  
   }
 })

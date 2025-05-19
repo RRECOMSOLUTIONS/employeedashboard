@@ -1,20 +1,17 @@
 {
   "builds": [
-    { "src": "dist/**", "use": "@vercel/static" }
+    {
+      "src": "index.html",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
   ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "headers": [
+  "routes": [
     {
-      "source": "/index.html",
-      "headers": [
-        { "key": "Content-Type", "value": "text/html" }
-      ]
-    },
-    {
-      "source": "/assets/(.*).js",
-      "headers": [
-        { "key": "Content-Type", "value": "application/javascript" }
-      ]
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
