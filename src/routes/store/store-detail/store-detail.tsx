@@ -34,8 +34,8 @@ export const StoreDetail = () => {
       }}
       data={store}
       hasOutlet
-      showMetadata
-      showJSON
+      // showMetadata
+      // showJSON
     >
       <StoreGeneralSection store={store} />
       <StoreCurrencySection store={store} />

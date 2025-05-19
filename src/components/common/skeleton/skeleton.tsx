@@ -255,8 +255,8 @@ export const SingleColumnPageSkeleton = ({
           />
         )
       })}
-      {showMetadata && <Skeleton className="h-[60px] w-full rounded-lg" />}
-      {showJSON && <Skeleton className="h-[60px] w-full rounded-lg" />}
+      {/* {showMetadata && <Skeleton className="h-[60px] w-full rounded-lg" />} */}
+      {/* {showJSON && <Skeleton className="h-[60px] w-full rounded-lg" />} */}
     </div>
   )
 }
@@ -292,10 +292,10 @@ export const TwoColumnPageSkeleton = ({
           })}
           {showExtraData && (
             <div className="hidden flex-col gap-y-3 xl:flex">
-              {showMetadata && (
+              {/* {showMetadata && (
                 <Skeleton className="h-[60px] w-full rounded-lg" />
-              )}
-              {showJSON && <Skeleton className="h-[60px] w-full rounded-lg" />}
+              )} */}
+              {/* {showJSON && <Skeleton className="h-[60px] w-full rounded-lg" />} */}
             </div>
           )}
         </div>
@@ -314,10 +314,10 @@ export const TwoColumnPageSkeleton = ({
           )}
           {showExtraData && (
             <div className="flex flex-col gap-y-3 xl:hidden">
-              {showMetadata && (
+              {/* {showMetadata && (
                 <Skeleton className="h-[60px] w-full rounded-lg" />
-              )}
-              {showJSON && <Skeleton className="h-[60px] w-full rounded-lg" />}
+              )} */}
+              {/* {showJSON && <Skeleton className="h-[60px] w-full rounded-lg" />} */}
             </div>
           )}
         </div>

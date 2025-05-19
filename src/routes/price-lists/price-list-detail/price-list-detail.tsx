@@ -34,7 +34,7 @@ export const PriceListDetails = () => {
         sideBefore: getWidgets("price_list.details.side.before"),
       }}
       data={price_list}
-      showJSON
+      // showJSON
     >
       <TwoColumnPage.Main>
         <PriceListGeneralSection priceList={price_list} />

@@ -32,7 +32,7 @@ export const ExecutionDetail = () => {
         before: getWidgets("workflow.details.before"),
       }}
       data={workflow_execution}
-      showJSON
+      // showJSON
     >
       <WorkflowExecutionGeneralSection execution={workflow_execution} />
       <WorkflowExecutionTimelineSection execution={workflow_execution} />

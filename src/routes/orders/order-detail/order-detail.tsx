@@ -71,8 +71,8 @@ export const OrderDetail = () => {
         sideBefore: getWidgets("order.details.side.before"),
       }}
       data={order}
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       hasOutlet
     >
       <TwoColumnPage.Main>

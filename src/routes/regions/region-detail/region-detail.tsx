@@ -64,8 +64,8 @@ export const RegionDetail = () => {
         after: getWidgets("region.details.after"),
       }}
       data={region}
-      showMetadata
-      showJSON
+      // showMetadata
+      // showJSON
     >
       <RegionGeneralSection
         region={region}

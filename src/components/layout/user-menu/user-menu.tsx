@@ -56,12 +56,12 @@ export const UserMenu = () => {
             </Link>
           </DropdownMenu.Item>
           <DropdownMenu.Separator />
-          <DropdownMenu.Item asChild>
+          {/* <DropdownMenu.Item asChild>
             <Link to="https://docs.medusajs.com" target="_blank">
               <BookOpen className="text-ui-fg-subtle mr-2" />
               {t("app.menus.user.documentation")}
             </Link>
-          </DropdownMenu.Item>
+          </DropdownMenu.Item> */}
           <DropdownMenu.Item asChild>
             <Link to="https://medusajs.com/changelog/" target="_blank">
               <TimelineVertical className="text-ui-fg-subtle mr-2" />

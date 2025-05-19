@@ -36,8 +36,8 @@ export const ProductVariantDetail = () => {
       <TwoColumnPageSkeleton
         mainSections={2}
         sidebarSections={1}
-        showJSON
-        showMetadata
+        // showJSON
+        // showMetadata
       />
     )
   }
@@ -50,8 +50,8 @@ export const ProductVariantDetail = () => {
     <TwoColumnPage
       data={variant}
       hasOutlet
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       widgets={{
         after: getWidgets("product_variant.details.after"),
         before: getWidgets("product_variant.details.before"),

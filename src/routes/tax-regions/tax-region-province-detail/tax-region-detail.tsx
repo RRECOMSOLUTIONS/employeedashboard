@@ -36,7 +36,7 @@ export const TaxRegionDetail = () => {
   return (
     <SingleColumnPage
       data={taxRegion}
-      showJSON
+      // showJSON
       widgets={{
         after: getWidgets("tax.details.after"),
         before: getWidgets("tax.details.before"),

@@ -34,7 +34,7 @@ export const ApiKeyManagementDetail = () => {
   return (
     <SingleColumnPage
       hasOutlet
-      showJSON
+      // showJSON
       widgets={{
         before: getWidgets("api_key.details.before"),
         after: getWidgets("api_key.details.after"),

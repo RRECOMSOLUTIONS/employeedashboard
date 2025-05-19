@@ -37,8 +37,8 @@ export const CustomerDetail = () => {
       }}
       data={customer}
       hasOutlet
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
     >
       <CustomerGeneralSection customer={customer} />
       <CustomerOrderSection customer={customer} />

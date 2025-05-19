@@ -45,7 +45,7 @@ export function LocationList() {
         sideAfter: getWidgets("location.details.side.after"),
         sideBefore: getWidgets("location.details.side.before"),
       }}
-      showJSON
+      // showJSON
     >
       <TwoColumnPage.Main>
         <LocationListHeader />

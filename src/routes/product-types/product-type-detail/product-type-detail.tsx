@@ -38,8 +38,8 @@ export const ProductTypeDetail = () => {
         after: getWidgets("product_type.details.after"),
         before: getWidgets("product_type.details.before"),
       }}
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       data={product_type}
     >
       <ProductTypeGeneralSection productType={product_type} />

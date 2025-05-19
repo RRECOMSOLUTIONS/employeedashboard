@@ -31,8 +31,8 @@ export const CategoryDetail = () => {
       <TwoColumnPageSkeleton
         mainSections={2}
         sidebarSections={1}
-        showJSON
-        showMetadata
+        // showJSON
+        // showMetadata
       />
     )
   }
@@ -49,8 +49,8 @@ export const CategoryDetail = () => {
         sideAfter: getWidgets("product_category.details.side.after"),
         sideBefore: getWidgets("product_category.details.side.before"),
       }}
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       data={product_category}
     >
       <TwoColumnPage.Main>

@@ -44,7 +44,7 @@ export const PromotionDetail = () => {
         sideBefore: getWidgets("promotion.details.side.before"),
       }}
       hasOutlet
-      showJSON
+      // showJSON
     >
       <TwoColumnPage.Main>
         <PromotionGeneralSection promotion={promotion} />

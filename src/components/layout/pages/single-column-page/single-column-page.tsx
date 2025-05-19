@@ -55,8 +55,8 @@ export const SingleColumnPage = <TData,>({
       {after.map((Component, i) => {
         return <Component {...widgetProps} key={i} />
       })}
-      {showMetadata && <MetadataSection data={data!} />}
-      {showJSON && <JsonViewSection data={data!} />}
+      {/* {showMetadata && <MetadataSection data={data!} />}
+      {showJSON && <JsonViewSection data={data!} />} */}
       {hasOutlet && <Outlet />}
     </div>
   )

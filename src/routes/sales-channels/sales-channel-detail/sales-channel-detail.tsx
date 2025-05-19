@@ -30,8 +30,8 @@ export const SalesChannelDetail = () => {
         before: getWidgets("sales_channel.details.before"),
         after: getWidgets("sales_channel.details.after"),
       }}
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       data={sales_channel}
     >
       <SalesChannelGeneralSection salesChannel={sales_channel} />

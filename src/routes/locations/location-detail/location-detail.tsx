@@ -49,7 +49,7 @@ export const LocationDetail = () => {
         sideBefore: getWidgets("location.details.side.before"),
       }}
       data={location}
-      showJSON
+      // showJSON
       hasOutlet
     >
       <TwoColumnPage.Main>

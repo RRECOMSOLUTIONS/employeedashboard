@@ -39,7 +39,7 @@ export const ProductTagDetail = () => {
         after: getWidgets("product_tag.details.after"),
         before: getWidgets("product_tag.details.before"),
       }}
-      showJSON
+      // showJSON
       data={product_tag}
     >
       <ProductTagGeneralSection productTag={product_tag} />

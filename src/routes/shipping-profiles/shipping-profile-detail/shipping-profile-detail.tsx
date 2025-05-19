@@ -37,8 +37,8 @@ export const ShippingProfileDetail = () => {
         before: getWidgets("shipping_profile.details.before"),
         after: getWidgets("shipping_profile.details.after"),
       }}
-      showMetadata
-      showJSON
+      // showMetadata
+      // showJSON
       data={shipping_profile}
     >
       <ShippingProfileGeneralSection profile={shipping_profile} />

@@ -40,8 +40,8 @@ export const CustomerGroupDetail = () => {
         before: getWidgets("customer_group.details.before"),
         after: getWidgets("customer_group.details.after"),
       }}
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       data={customer_group}
     >
       <CustomerGroupGeneralSection group={customer_group} />

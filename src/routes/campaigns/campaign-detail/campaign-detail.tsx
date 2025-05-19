@@ -32,8 +32,8 @@ export const CampaignDetail = () => {
       <TwoColumnPageSkeleton
         mainSections={2}
         sidebarSections={3}
-        showJSON
-        showMetadata
+        // showJSON
+        // showMetadata
       />
     )
   }
@@ -51,8 +51,8 @@ export const CampaignDetail = () => {
         sideBefore: getWidgets("campaign.details.side.before"),
       }}
       hasOutlet
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       data={campaign}
     >
       <TwoColumnPage.Main>

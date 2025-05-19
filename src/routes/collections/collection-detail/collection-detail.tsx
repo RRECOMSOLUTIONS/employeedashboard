@@ -34,8 +34,8 @@ export const CollectionDetail = () => {
         after: getWidgets("product_collection.details.after"),
         before: getWidgets("product_collection.details.before"),
       }}
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       data={collection}
     >
       <CollectionGeneralSection collection={collection} />

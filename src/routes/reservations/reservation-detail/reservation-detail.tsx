@@ -38,8 +38,8 @@ export const ReservationDetail = () => {
       <TwoColumnPageSkeleton
         mainSections={1}
         sidebarSections={1}
-        showJSON
-        showMetadata
+        // showJSON
+        // showMetadata
       />
     )
   }
@@ -57,8 +57,8 @@ export const ReservationDetail = () => {
         sideAfter: getWidgets("reservation.details.side.after"),
       }}
       data={reservation}
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
     >
       <TwoColumnPage.Main>
         <ReservationGeneralSection reservation={reservation} />

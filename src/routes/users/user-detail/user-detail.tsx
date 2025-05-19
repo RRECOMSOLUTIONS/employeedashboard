@@ -34,8 +34,8 @@ export const UserDetail = () => {
   return (
     <SingleColumnPage
       data={user}
-      showJSON
-      showMetadata
+      // showJSON
+      // showMetadata
       widgets={{
         after: getWidgets("user.details.after"),
         before: getWidgets("user.details.before"),

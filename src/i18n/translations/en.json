@@ -256,7 +256,7 @@
       "settings": {
         "header": "Settings",
         "general": "General",
-        "developer": "Developer",
+        "developer": "Admin",
         "myAccount": "My Account"
       }
     }
@@ -2314,7 +2314,7 @@
     },
     "roles": {
       "admin": "Admin",
-      "developer": "Developer",
+      "developer": "Admin",
       "member": "Member"
     },
     "list": {
